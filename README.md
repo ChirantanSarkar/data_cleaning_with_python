@@ -24,12 +24,16 @@ ___
 ## 📂 Project Structure
 
 ```
-data_cleaning_with_python/
-|
-|-- crime_incidents_messy.csv        # Raw dataset
-|-- data_cleaning.ipynb              # Jupyter notebook, contains cleaning process
-|-- crime_incidents_cleaned.csv      # Cleaned dataset
-|-- README.md                        # Project documentation
+│   README.md
+│   
+├───01_Original_Dataset              #Raw dataset
+│       crime_incidents_messy.csv    
+│       
+├───02_Data_Cleaning                 #Notebook
+│       data_cleaning.ipynb
+│       
+└───03_Cleaned_Dataset               #Cleaned dataset
+        crime_incidents_cleaned.csv
 ```
 
 ___
